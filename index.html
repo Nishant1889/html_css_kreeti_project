@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Hello, world!</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand p-2" href="#">
+        <img src="/assets/logo.jpg" alt="Realstate logo" class="main_logo ">
+      </a>
+      <div class="top-header">
+        <img class="mobile_icon" src="assets/mobile-phone-icon.jpg" alt="phone no icon">
+        <a class=" phone_no" href="#">+91 9323456734</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+        aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" id="nav-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse text-light " id="toggleMobileMenu">
+
+        <ul class="navbar-nav ms-auto  text-center  ">
+          <li class="nav-item">
+            <a class="nav-links active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" id="ww" href="#">Property</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#">Agent</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#">Contact</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-fluid top-section">
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-6 top-left-section">
+        <form class="form-horizontal">
+
+          <h2 class="display-6 pt-3 pb-3">Search Properties</h2>
+
+          <div class="form-group row">
+            <label class="control-label  col-md-4" for="keyword">keyword </label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" placeholder="Keyword" name="keyword">
+            </div>
+          </div>
+
+          <div class="form-group row ">
+            <label class="control-label col-md-4" for="Property Status">Property Status</label>
+            <div class="col-md-8 ">
+              <select class="form-select" name="Property Status" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-md-4" for="Property Type ">Property Type </label>
+            <div class="col-md-8">
+              <select class="form-select" name="Property Type" aria-label="Default select form-group">
+
+                <option selected>Any</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-md-4" for="Location">Location</label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" placeholder="Location" name="Location">
+            </div>
+
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-md-4" for="Price">Price</label>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Price" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Price" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-md-4" for="Bedroom ">Bedroom </label>
+
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Bedroom" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Bedroom" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-md-4" for="Bathroom">Bathroom</label>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Bathroom" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Bathroom" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="control-label col-md-4" for="Area">Area</label>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Area" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+            </div>
+            <div class="col-6 col-md-4">
+              <select class="form-select" name="Area" aria-label="Default select form-group">
+                <option selected>Any</option>
+              </select>
+
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-6 col-md-4">
+
+            </div>
+
+            <button type="button" class="btn btn-dark  col-md-8 col-12 " id="search-btn">Search</button>
+
+          </div>
+        </form>
+
+      </div>
+
+      <div class=" col-md-4 col-lg-6 d-none d-md-inline top-right-section">
+
+        <img id="building-img"
+          src="https://images.unsplash.com/photo-1499463217683-ee3c9ce038f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          alt="skyscrapper image">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row middle-section">
+      <div class="col-md-6 col-lg-4">
+        <div class="d-flex m-5">
+          <img src="/assets/791899_start_512x512.png" alt="image" class="lorem-images">
+          <div class="pr-2">
+            <h5>Lorem ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+            <a class="learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4">
+        <div class="d-flex m-5">
+          <img src="/assets/Streamline-17-512.png" alt="image" class="lorem-images">
+          <div class="pr-2">
+            <h5>Lorem ipsum</h5>
+            <p>Lorem ipsum dolor sit a met consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+            <a class="learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="d-flex m-5">
+          <img src="/assets/wallet-57-106202.png" alt="image" class="lorem-images">
+          <div class="pr-2">
+            <h5>Lorem ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+            <a class="learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4">
+        <div class="d-flex m-5">
+          <img src="/assets/Data-Pie-icon.png" alt="image" class="lorem-images">
+          <div class="pr-2">
+            <h5>Lorem ipsum</h5>
+            <p>Lorem ipsum dolor sit a met consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+            <a class="learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4">
+        <div class="d-flex m-5">
+          <img src="/assets/React.js_logo-512.png" alt="image" class="lorem-images">
+          <div class="pr-2">
+            <h5>Lorem ipsum</h5>
+            <p>Lorem ipsum dolor sit a met consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+            <a class="learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 ">
+        <div class="d-flex m-5">
+          <img src="/assets/a50ce51c9e.png" alt="image" class="lorem-images">
+          <div class="pr-2">
+            <h5>Lorem ipsum</h5>
+            <p>Lorem ipsum dolor sit a met consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+            <a class="learn-more" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="row footer-header">
+
+      <div class="  col-md-4 d-block p-5 footer-part">
+        <h5>About Realstate</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam dolorum distinctio quo aliquam
+          veniam, id unde officiis nam quia qui quasi aspernatur fugit blanditiis perferendis in ad voluptate
+          eveniet! Odit magni magnam harum at.</p>
+      </div>
+      <div class="col-md-2 d-block p-5 footer-part">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb=2 ">
+            <a href="#">Home</a>
+          </li>
+          <li class="mb=2 ">
+            <a href="#">Properties</a>
+          </li>
+          <li class="mb=2 ">
+            <a href="#">Agent</a>
+          </li>
+          <li class="mb=2 ">
+            <a href="#">Blog</a>
+          </li>
+          <li class="mb=2 ">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-xl-3 d-block p-5 footer-part">
+        <h5>Information</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Terms & Condition</a>
+          </li>
+          <li>
+            <a href="#">License</a>
+          </li>
+          <li>
+            <a href="#">Privacy & policy</a>
+          </li>
+
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-xl-3 p-5 footer-part">
+        <h5>Newsletter</h5>
+        <div class="input-group ">
+          <input type="email" class="form-control  email-input" placeholder="Email">
+          <button type="button" class="btn sign-up-btn p-2">Sign Up</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="continer-fluid">
+      <p class="text-center text-light bottom-footer mb-0"> copyright<span>&#169</span>2019realstate.Allrightsreserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

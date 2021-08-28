@@ -1,0 +1,161 @@
+.mobile_icon {
+    position: absolute;
+    margin-top: 0px;
+    top: 5px;
+    right: 180px;
+    height: 23px;
+    width: 23px;
+}
+
+.phone_no {
+    position: absolute;
+    right: 45px;
+    top: 5px;
+    color: grey;
+    text-decoration: none;
+
+}
+
+nav {
+    height: 100px;
+
+
+}
+
+.main_logo {
+
+    position: absolute;
+    margin-left: 24px;
+    top: 38px;
+
+}
+
+#toggleMobileMenu {
+
+    font-size: 18px;
+    width: 100%;
+
+}
+
+nav ul {
+  
+    margin-top: 35px;
+}
+
+.nav-item {
+    margin:0px 45px 20px;
+   
+}
+
+.navbar-toggler {
+    margin-right: 26px;
+    margin-top: 37px;
+}
+
+.nav-links {
+    color: grey;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    #toggleMobileMenu {
+        background-color: black;
+
+    }
+
+    .nav-links {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+a.active,a:hover {
+    color: #37ca27;
+    transition: .4s;
+}
+.top-section {
+    background-color: #37ca27;
+    color: #f1f3f1;
+    font-family: 'Rubik', sans-serif;
+    height: auto;
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+
+  .form-control,
+  .form-select {
+
+    margin-bottom: 15px;
+    color: grey;
+  }
+
+  .control-label {
+    font-size: 18px;
+
+  }
+
+  #building-img{
+ 
+    width: 100%;
+    height: 570px;;
+
+  }
+  .top-right-section{
+    height: 570px;
+  }
+
+  .lorem-images{
+    height:48px;
+     align-self:start;
+     margin:4px 16px 8px 0px;
+ }
+ .learn-more{
+     color:#37ca27;
+     text-decoration: none;
+ }
+  
+ .footer{
+    background-color: #e8e6e6;;
+}
+footer li a {
+    text-decoration: none;
+    padding-right: 15px;
+
+    color: black;
+
+
+}
+
+@media (max-width: 768px) {
+    footer li {
+        display: inline;
+    }
+
+}
+
+.sign-up-btn{
+    color: white;
+    background-color: #37ca27;
+}
+
+.bottom-footer {
+    background-color: grey;
+}
+
+footer li {
+    margin-bottom: 14px;
+}
+
+footer h5 {
+    margin-bottom: 23px;
+
+}
+.email-input{
+    min-width: 100px;
+    max-width: 250px;
+    margin: 0px;
+}
+.footer-header{
+    width: 100%;
+}
