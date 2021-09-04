@@ -48,8 +48,8 @@ nav ul {
 }
 
 .navbar-toggler {
-    margin-right: 26px;
-    margin-top: 37px;
+    margin-right: 43px;
+    margin-top: 45px;
 }
 
 .nav-links {
@@ -94,6 +94,10 @@ a.active,a:hover {
     font-size: 18px;
 
   }
+  .main{
+    padding:0px;
+    margin: 0px;
+  }
 
   #building-img{
  
@@ -112,7 +116,10 @@ a.active,a:hover {
  }
  .learn-more{
      color:#37ca27;
-     text-decoration: none;
+     text-decoration: none;     
+ }
+ .learn-more:hover{
+     color:black;
  }
   
  .footer{
