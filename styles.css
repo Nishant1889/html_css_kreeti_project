@@ -1,36 +1,37 @@
+.container-xxl {
+    padding: 0px;
+    
+}
+.header{
+    
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
 .mobile_icon {
-    position: absolute;
-    margin-top: 0px;
-    top: 5px;
-    right: 180px;
     height: 23px;
     width: 23px;
+
 }
 
 .phone_no {
-    position: absolute;
-    right: 45px;
-    top: 5px;
     color: grey;
     text-decoration: none;
+    margin-right: 45px;
 
 }
 
-nav {
-    height: 100px;
+.secondary {
+    height: 70px;
 
 
 }
 
-.main_logo {
-
-    position: absolute;
+.main-logo {
     margin-left: 24px;
-    top: 38px;
-
 }
 
-#toggleMobileMenu {
+#navbarSupportedContent {
 
     font-size: 18px;
     width: 100%;
@@ -38,18 +39,18 @@ nav {
 }
 
 nav ul {
-  
-    margin-top: 35px;
+
+    margin-top: 25px;
 }
 
 .nav-item {
-    margin:0px 45px 20px;
-   
+    margin: 0px 45px 20px;
+
 }
 
 .navbar-toggler {
-    margin-right: 43px;
-    margin-top: 45px;
+    margin-right: 45px;
+
 }
 
 .nav-links {
@@ -58,8 +59,9 @@ nav ul {
 }
 
 @media (max-width: 992px) {
-    #toggleMobileMenu {
+    #navbarSupportedContent {
         background-color: black;
+        margin-top: 4px;
 
     }
 
@@ -70,7 +72,8 @@ nav ul {
 }
 
 
-a.active,a:hover {
+a.active,
+a:hover {
     color: #37ca27;
     transition: .4s;
 }
@@ -97,6 +100,7 @@ a.active,a:hover {
   .main{
     padding:0px;
     margin: 0px;
+    width: 100%;
   }
 
   #building-img{
