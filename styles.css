@@ -2,6 +2,8 @@
     padding: 0px;
     
 }
+
+
 .header{
     
     margin-top: 9px;
@@ -169,4 +171,14 @@ footer h5 {
 }
 .footer-header{
     width: 100%;
+}
+
+@media (max-width:400px){
+    .navbar-toggler{
+        margin-right: 5px;
+        padding:3px;
+    }
+    .main-logo{
+        margin-left: 5px;
+    }
 }
