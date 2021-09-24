@@ -187,4 +187,6 @@ footer h5 {
         padding:25px 40px;
     }
     
- 
+    #search-btn{
+    width: 100%;
+    }
